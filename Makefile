@@ -1,6 +1,9 @@
 PROPIS=./lib/propis.js
 
-all:
+pnodes.js: src/pnodes.coffee
+	coffee -c -o lib/ src/pnodes.coffee
+
+all: pnodes.js
 	pegjs src/propis.pegjs $(PROPIS)
 
 test: all
