@@ -1,0 +1,44 @@
+{
+  "name": "pscript",
+  "author": "Andrey Paskal",
+  "version": "0.0.1-alfa-dev",
+  "homepage": "https://github.com/app/pscript",
+  "bugs": "https://github.com/app/pscript/issues",
+  "description": "Забавный JavaScript",
+  "keywords": [
+    "pscript",
+    "javascript",
+    "language",
+    "compiler"
+  ],
+  "main": "./lib/module",
+  "bin": {
+    "pscript": "./bin/pscript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/app/pscript.git"
+  },
+  "scripts": {
+    "build": "make",
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "pegjs": "~0.8.0"
+  },
+  "dependencies": {
+  },
+  "optionalDependencies": {
+  },
+  "engines": {
+    "node": "0.8.x || 0.10.x"
+  },
+  "licenses": [
+    {
+      "type": "GNU GPL3",
+      "url": "https://github.com/app/pscript/blob/master/LICENSE"
+    }
+  ],
+  "license": "GNU GPL3"
+}

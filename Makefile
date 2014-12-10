@@ -7,4 +7,4 @@ all: pnodes.js
 	pegjs src/propis.pegjs $(PROPIS)
 
 test: all
-	node test/runtests.js
+	node_modules/.bin/mocha  -u tdd -R dot test/*.js
