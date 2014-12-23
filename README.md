@@ -1,9 +1,1 @@
-UTF-8 Russian text  
-Код разрабатывается и отлаживается под Linux (Ubuntu 14.04 LTS)  
-
-# Зависимости  
-npm install 
-
-# Запуск тестов  
-make test  
-
+# To view project info open/run [RUNme.sh.md](RUNme.sh.md) file.
